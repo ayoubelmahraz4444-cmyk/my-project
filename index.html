@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ayoub El Mahraz — Automatisation & IA</title>
+<meta name="description" content="Ayoub El Mahraz, 20 ans, Tétouan — pipelines d'automatisation IA, n8n, agents et génération de leads.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grain"></div>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="#top" class="nav-mark">AEM<span class="dot">_</span></a>
+    <nav class="nav-links">
+      <a href="#flux">Flux</a>
+      <a href="#competences">Compétences</a>
+      <a href="#projets">Projets</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="nav-cta">Lancer un projet</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <canvas id="pipeline-canvas"></canvas>
+    <div class="hero-inner">
+      <p class="eyebrow"><span class="status-dot"></span> en ligne · Tétouan, Maroc</p>
+      <h1 class="hero-title">
+        Je construis des <span class="hl">pipelines</span><br>
+        qui ne dorment jamais.
+      </h1>
+      <p class="hero-sub">
+        Ayoub El Mahraz, 20 ans. J'automatise la collecte, le traitement et la
+        distribution de données avec n8n et l'IA — du déclencheur jusqu'à la
+        notification, sans intervention humaine.
+      </p>
+      <div class="hero-actions">
+        <a href="#projets" class="btn btn-primary">Voir le dernier workflow</a>
+        <a href="#contact" class="btn btn-ghost">Me contacter</a>
+      </div>
+    </div>
+    <div class="hero-scroll-cue">
+      <span>défiler</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ============ LIVE LOG STRIP ============ -->
+  <section class="log-strip" id="flux">
+    <div class="log-strip-inner">
+      <p class="log-strip-label">DERNIÈRE EXÉCUTION</p>
+      <div class="log-track">
+        <div class="log-row">
+          <span class="log-time">12:04:01</span>
+          <span class="log-tag tag-ok">200</span>
+          <span class="log-text">Lead capturé — formulaire entrant</span>
+        </div>
+        <div class="log-row">
+          <span class="log-time">12:04:02</span>
+          <span class="log-tag tag-ok">200</span>
+          <span class="log-text">Enrichissement via Gemini — catégorie détectée</span>
+        </div>
+        <div class="log-row">
+          <span class="log-time">12:04:03</span>
+          <span class="log-tag tag-ok">200</span>
+          <span class="log-text">Vecteur généré — embedding stocké dans Supabase</span>
+        </div>
+        <div class="log-row">
+          <span class="log-time">12:04:04</span>
+          <span class="log-tag tag-warn">RETRY</span>
+          <span class="log-text">503 transitoire — nouvelle tentative automatique</span>
+        </div>
+        <div class="log-row">
+          <span class="log-time">12:04:06</span>
+          <span class="log-tag tag-ok">200</span>
+          <span class="log-text">Notification Slack envoyée à l'équipe commerciale</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ APPROCHE ============ -->
+  <section class="approach">
+    <div class="approach-inner">
+      <p class="section-label">Approche</p>
+      <h2 class="section-title">Trois principes, aucune exception</h2>
+      <div class="approach-grid">
+        <article class="approach-card">
+          <p class="approach-num">Minimal</p>
+          <h3>Pas de nœud inutile</h3>
+          <p>Chaque étape d'un workflow doit justifier son existence. Un pipeline propre se débogue en minutes, pas en heures.</p>
+        </article>
+        <article class="approach-card">
+          <p class="approach-num">Résilient</p>
+          <h3>Tout finit par échouer</h3>
+          <p>Retries, upserts, validation des clés API en amont — je conçois pour l'échec transitoire, pas seulement pour le cas idéal.</p>
+        </article>
+        <article class="approach-card">
+          <p class="approach-num">Traçable</p>
+          <h3>Visible à chaque étape</h3>
+          <p>Slack en cas de succès, email en cas d'erreur, logs lisibles. Un automatisme silencieux est un automatisme qu'on ne peut pas réparer.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COMPÉTENCES ============ -->
+  <section class="skills" id="competences">
+    <div class="skills-inner">
+      <p class="section-label">Stack</p>
+      <h2 class="section-title">Outils que j'utilise en production</h2>
+      <div class="skills-grid">
+        <div class="skill-row">
+          <span class="skill-name">n8n</span>
+          <div class="skill-bar"><span style="--w:95%"></span></div>
+          <span class="skill-pct">95%</span>
+        </div>
+        <div class="skill-row">
+          <span class="skill-name">Automatisation IA (agents)</span>
+          <div class="skill-bar"><span style="--w:90%"></span></div>
+          <span class="skill-pct">90%</span>
+        </div>
+        <div class="skill-row">
+          <span class="skill-name">Google Gemini API</span>
+          <div class="skill-bar"><span style="--w:88%"></span></div>
+          <span class="skill-pct">88%</span>
+        </div>
+        <div class="skill-row">
+          <span class="skill-name">Supabase / Vector DB</span>
+          <div class="skill-bar"><span style="--w:85%"></span></div>
+          <span class="skill-pct">85%</span>
+        </div>
+        <div class="skill-row">
+          <span class="skill-name">RAG (Retrieval-Augmented Generation)</span>
+          <div class="skill-bar"><span style="--w:82%"></span></div>
+          <span class="skill-pct">82%</span>
+        </div>
+        <div class="skill-row">
+          <span class="skill-name">JavaScript / Node.js</span>
+          <div class="skill-bar"><span style="--w:78%"></span></div>
+          <span class="skill-pct">78%</span>
+        </div>
+        <div class="skill-row">
+          <span class="skill-name">Génération & qualification de leads</span>
+          <div class="skill-bar"><span style="--w:90%"></span></div>
+          <span class="skill-pct">90%</span>
+        </div>
+        <div class="skill-row">
+          <span class="skill-name">APIs REST & webhooks</span>
+          <div class="skill-bar"><span style="--w:80%"></span></div>
+          <span class="skill-pct">80%</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJETS ============ -->
+  <section class="projects" id="projets">
+    <div class="projects-inner">
+      <p class="section-label">Projets</p>
+      <h2 class="section-title">Ce que j'ai construit récemment</h2>
+
+      <article class="project-card project-featured">
+        <div class="project-tag">Dernier projet · en production</div>
+        <h3>Automatisation de leads de bout en bout</h3>
+        <p>
+          Pipeline n8n qui capte un lead entrant, l'enrichit via un agent IA
+          (catégorisation, score d'importance, langue détectée), génère un
+          vecteur d'embedding, le stocke dans Supabase pour la recherche
+          sémantique, puis notifie l'équipe commerciale en temps réel. Inclut
+          une logique de retry automatique sur les erreurs transitoires de
+          l'API et une déduplication par upsert.
+        </p>
+        <ul class="project-stack">
+          <li>n8n</li><li>Gemini API</li><li>Supabase</li><li>Slack</li><li>Gmail</li>
+        </ul>
+      </article>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <h3>Pipeline RAG multi-format</h3>
+          <p>Ingestion automatique de PDF, Excel, CSV, images et fichiers Word depuis Google Drive, avec OCR de secours pour les documents scannés et indexation vectorielle dans Supabase.</p>
+          <ul class="project-stack">
+            <li>n8n</li><li>OCR</li><li>Vector DB</li>
+          </ul>
+        </article>
+        <article class="project-card">
+          <h3>Agent conversationnel documentaire</h3>
+          <p>Chatbot RAG qui répond uniquement à partir des documents internes d'une entreprise, avec mémoire de conversation et refus explicite si l'information n'existe pas dans la base.</p>
+          <ul class="project-stack">
+            <li>LangChain</li><li>Gemini</li><li>Supabase</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <p class="section-label">Contact</p>
+      <h2 class="contact-title">Un pipeline à construire&nbsp;?</h2>
+      <p class="contact-sub">Décrivez-moi le déclencheur et le résultat voulu — je m'occupe de tout ce qu'il y a entre les deux.</p>
+      <a href="mailto:ayoubelmahraz4444@gmail.com" class="contact-email">ayoubelmahraz4444@gmail.com</a>
+      <div class="contact-links">
+        <a href="https://github.com/ayoubelmahraz4444-cmyk" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Ayoub El Mahraz — Tétouan, Maroc</p>
+  <p class="footer-meta">Conçu &amp; codé à la main</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
